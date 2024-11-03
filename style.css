@@ -1,0 +1,72 @@
+body {
+    background-color: #000;
+    color: #00ff99;
+    font-family: monospace;
+}
+
+pre {
+    white-space: pre-wrap;
+    overflow: hidden;
+    line-height: 0.4; /* Reduce line spacing */
+}
+
+pre span {
+    display: block;
+    opacity: 0; /* Start as invisible */
+    animation: appear 0s forwards; /* Will be overridden by individual spans */
+    margin: 0; /* Remove any default margin */
+    padding: 0; /* Remove any default padding */
+}
+
+/* Appearance animation */
+@keyframes appear {
+    to {
+        opacity: 1; /* Fully visible */
+    }
+}
+
+/* Apply delay to each line so they appear sequentially */
+pre span:nth-child(1) { animation: appear 0s forwards; }
+pre span:nth-child(2) { animation: appear 0s forwards; animation-delay: 0.2s; }
+pre span:nth-child(3) { animation: appear 0s forwards; animation-delay: 0.4s; }
+pre span:nth-child(4) { animation: appear 0s forwards; animation-delay: 0.6s; }
+pre span:nth-child(5) { animation: appear 0s forwards; animation-delay: 0.8s; }
+pre span:nth-child(6) { animation: appear 0s forwards; animation-delay: 1s; }
+pre span:nth-child(7) { animation: appear 0s forwards; animation-delay: 1.2s; }
+pre span:nth-child(8) { animation: appear 0s forwards; animation-delay: 1.4s; }
+pre span:nth-child(9) { animation: appear 0s forwards; animation-delay: 1.6s; }
+pre span:nth-child(10) { animation: appear 0s forwards; animation-delay: 1.8s; }
+pre span:nth-child(11) { animation: appear 0s forwards; animation-delay: 2s; }
+pre span:nth-child(12) { animation: appear 0s forwards; animation-delay: 2.2s; }
+pre span:nth-child(13) { animation: appear 0s forwards; animation-delay: 2.4s; }
+pre span:nth-child(14) { animation: appear 0s forwards; animation-delay: 2.6s; }
+pre span:nth-child(15) { animation: appear 0s forwards; animation-delay: 2.8s; }
+pre span:nth-child(16) { animation: appear 0s forwards; animation-delay: 3s; }
+pre span:nth-child(17) { animation: appear 0s forwards; animation-delay: 3.2s; }
+pre span:nth-child(18) { animation: appear 0s forwards; animation-delay: 3.4s; }
+pre span:nth-child(19) { animation: appear 0s forwards; animation-delay: 3.6s; }
+pre span:nth-child(20) { animation: appear 0s forwards; animation-delay: 3.8s; }
+pre span:nth-child(21) { animation: appear 0s forwards; animation-delay: 4s; }
+pre span:nth-child(22) { animation: appear 0s forwards; animation-delay: 4.2s; }
+pre span:nth-child(23) { animation: appear 0s forwards; animation-delay: 4.4s; }
+pre span:nth-child(24) { animation: appear 0s forwards; animation-delay: 4.6s; }
+pre span:nth-child(25) { animation: appear 0s forwards; animation-delay: 4.8s; }
+pre span:nth-child(26) { animation: appear 0s forwards; animation-delay: 5s; }
+pre span:nth-child(27) { animation: appear 0s forwards; animation-delay: 5.2s; }
+pre span:nth-child(28) { animation: appear 0s forwards; animation-delay: 5.4s; }
+pre span:nth-child(29) { animation: appear 0s forwards; animation-delay: 5.6s; }
+pre span:nth-child(30) { animation: appear 0s forwards; animation-delay: 5.8s; }
+pre span:nth-child(31) { animation: appear 0s forwards; animation-delay: 6s; }
+pre span:nth-child(32) { animation: appear 0s forwards; animation-delay: 6.2s; }
+pre span:nth-child(33) { animation: appear 0s forwards; animation-delay: 6.4s; }
+pre span:nth-child(34) { animation: appear 0s forwards; animation-delay: 6.6s; }
+pre span:nth-child(35) { animation: appear 0s forwards; animation-delay: 6.8s; }
+pre span:nth-child(36) { animation: appear 0s forwards; animation-delay: 7s; }
+pre span:nth-child(37) { animation: appear 0s forwards; animation-delay: 8s; }
+pre span:nth-child(38) { animation: appear 0s forwards; animation-delay: 9s; }
+pre span:nth-child(39) { animation: appear 0s forwards; animation-delay: 10s; }
+pre span:nth-child(40) { animation: appear 0s forwards; animation-delay: 12s; }
+pre span:nth-child(41) { animation: appear 0s forwards; animation-delay: 14s; }
+pre span:nth-child(42) { animation: appear 0s forwards; animation-delay: 15s; }
+pre span:nth-child(43) { animation: appear 0s forwards; animation-delay: 16s; }
+pre span:nth-child(44) { animation: appear 0s forwards; animation-delay: 18s; }
